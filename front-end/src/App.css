@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:wght@600&family=Ubuntu&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-left: -60px;
+}
+.btn {
+  width: 183px;
+  height: 44px;
+  background: #02b589;
+  border-radius: 100px;
+  border: 0;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  width: 274px;
+  height: 23px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #02b589;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.input {
+  width: 581px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  border-radius: 100px;
+}
+.logoTitle {
+  width: 184px;
+  height: 70px;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 70px;
+  text-align: center;
+  color: #02b589;
+}
+.logoLink {
+  width: 74px;
+  height: 40px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.logo {
+  width: 184px;
+  height: 118px;
+}
